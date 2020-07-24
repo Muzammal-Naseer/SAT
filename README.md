@@ -2,7 +2,7 @@
 
 
 ### Table of Contents  
-1) [Evaluate SAT against ROA (unrestricted attack)](#Evaluate SAT against ROA)
+1) [Evaluate SAT against ROA (unrestricted attack)](#Evaluate-SAT-against-ROA)
 4) [Pretrained Purifiers](#Pretrained-Purifiers) 
 5) [How to purify Adversarial Images?](#How-to-purify-Adversarial-Images) 
 6) [How to by-pass NRP using Straight through Estimation?](#How-to-by-pass-NRP-using-Straight-through-Estimation)
