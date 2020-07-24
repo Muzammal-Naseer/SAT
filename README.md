@@ -1,6 +1,6 @@
 # SAT: Stylized Adversarial Training
 
-
+![Learning Algo](/assets/method_fig.jpg)
 
 
 ### Table of Contents  
