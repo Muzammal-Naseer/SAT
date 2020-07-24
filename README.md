@@ -1,10 +1,18 @@
 # SAT: Stylized Adversarial Training
 
 
+
+
 ### Table of Contents  
+1) [Download Pretrained SAT](#Download-Pretrained-SAT)
 1) [Evaluate SAT against ROA (unrestricted attack)](#Evaluate-SAT-against-ROA)
 2) [Evaluate SAT against restricted attack (PGD, CW, FGSM, MIFGSM)](#Evaluate-SAT-against-restricted-attack ) 
 3) [Evaluate SAT against Common Corruptions](#Evaluate-SAT-against-Common-Corruptions)
+
+
+## Pretrained SAT
+
+Download the Pretrained SAT model from [here](https://drive.google.com/file/d/1wbCaKW0S8aK0BC0knpnxE_A9YfYQFW91/view?usp=sharing) and put it int the folder "pretrained_models"
 
 ## SAT against ROA
 ```
