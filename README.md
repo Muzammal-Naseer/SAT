@@ -6,18 +6,18 @@
 2) [Evaluate SAT against restricted attack (PGD, CW, FGSM, MIFGSM)](#Evaluate-SAT-against-restricted-attack ) 
 3) [Evaluate SAT against Common Corruptions](#Evaluate-SAT-against-Common-Corruptions)
 
-## Evaluate SAT against ROA
+## SAT against ROA
 ```
   python test_roa.py 
 ```
 
 
-## Evaluate SAT against restricted attack
+## SAT against restricted attack
 ```
   python test.py --attack_type pgd --eps 8 --iters 100 --random_restart
 ```
 
-## Evaluate SAT against Common Corruptions
+## SAT against Common Corruptions
 ```
   python test_common_corruptions.py 
 ```
