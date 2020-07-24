@@ -12,7 +12,7 @@
 ```
 
 
-## Evaluate SAT against restricted attac
+## Evaluate SAT against restricted attack
 ```
   python test.py --attack_type pgd --eps 8 --iters 100 --random_restart
 ```
