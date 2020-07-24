@@ -18,6 +18,8 @@
 ```
 
 ## SAT against Common Corruptions
+Download corrupted CIFAR10 dataset from [augmix](https://github.com/google-research/augmix) and extract to the folder "CIFAR-10-C". Run the following command to observe the robustness gains.
+
 ```
   python test_common_corruptions.py 
 ```
