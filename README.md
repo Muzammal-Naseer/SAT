@@ -20,7 +20,7 @@ Download the Pretrained SAT model from [here](https://drive.google.com/file/d/1w
 ```
 
 
-## SAT against restricted attack
+## SAT against Restricted attacks: PGD, MIFGSM etc.
 ```
   python test.py --attack_type pgd --eps 8 --iters 100 --random_restart
 ```
