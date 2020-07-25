@@ -15,6 +15,9 @@
 Download the Pretrained SAT model from [here](https://drive.google.com/file/d/1wbCaKW0S8aK0BC0knpnxE_A9YfYQFW91/view?usp=sharing) and put it int the folder "pretrained_models"
 
 ## SAT against ROA
+
+** Note that SAT is not trained against ROA but it still performs better than Trades/Feature scaterring.
+
 ```
   python test_roa.py 
 ```
