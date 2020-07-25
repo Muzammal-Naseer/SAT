@@ -16,7 +16,7 @@ Download the Pretrained SAT model from [here](https://drive.google.com/file/d/1w
 
 ## SAT against ROA
 
-** Note that SAT is not trained against ROA but it still performs better than Trades/Feature scaterring.
+*Note that SAT is not trained against ROA but it still performs better than Trades/Feature scaterring.
 
 ```
   python test_roa.py 
