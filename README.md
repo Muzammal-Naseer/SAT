@@ -1,5 +1,7 @@
 # SAT: Stylized Adversarial Training
 
+ **Under Review** ([arXiv link](https://arxiv.org/abs/2007.14672)
+
 ![Learning Algo](/assests/method_fig.jpg)
 
 
