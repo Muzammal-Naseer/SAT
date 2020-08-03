@@ -18,7 +18,7 @@ Download the Pretrained SAT model from [here](https://drive.google.com/file/d/1w
 
 ## SAT against ROA
 
-*Note that SAT is not trained against ROA but it still performs better than Trades/Feature scaterring.
+**Note that SAT is not trained against ROA but it still performs better than Trades/Feature scaterring.**
 
 ```
   python test_roa.py 
@@ -36,4 +36,4 @@ Download corrupted CIFAR10 dataset from [augmix](https://github.com/google-resea
 ```
   python test_common_corruptions.py 
 ```
-
+![Results](/assests/robustness_against_common_corruptions.png)
