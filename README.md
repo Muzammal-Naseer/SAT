@@ -1,6 +1,8 @@
 # SAT: Stylized Adversarial Training
 
-([arXiv link](https://arxiv.org/abs/2007.14672))
+[Muzammal Naseer](https://scholar.google.ch/citations?user=tM9xKA8AAAAJ&hl=en), [Salman Khan](https://scholar.google.com/citations?user=M59O9lkAAAAJ&hl=en), [Munawar Hayat](https://scholar.google.ch/citations?user=Mx8MbWYAAAAJ&hl=en&oi=ao), [Fahad Shahbaz Khan](https://scholar.google.ch/citations?user=zvaeYnUAAAAJ&hl=en&oi=ao), and [Fatih Porikli](https://scholar.google.com/citations?user=VpB8NZ8AAAAJ&hl=en)
+
+**Paper**: https://arxiv.org/abs/2007.14672
 
 ![Learning Algo](/assests/method_fig.jpg)
 
