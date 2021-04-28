@@ -19,19 +19,21 @@
 ```
 
 
-![Learning Algo](/assests/method_fig.jpg)
-
-
 ### Table of Contents  
-1) [Download Pretrained SAT](#Download-Pretrained-SAT)
-1) [Evaluate SAT against ROA (unrestricted attack)](#Evaluate-SAT-against-ROA)
-2) [Evaluate SAT against restricted attack (PGD, CW, FGSM, MIFGSM)](#Evaluate-SAT-against-restricted-attack ) 
-3) [Evaluate SAT against Common Corruptions](#Evaluate-SAT-against-Common-Corruptions)
+1) [Contributions](#Contributions) 
+2) [Download Pretrained SAT](#Download-Pretrained-SAT)
+3) [Evaluate SAT against ROA (unrestricted attack)](#Evaluate-SAT-against-ROA)
+4) [Evaluate SAT against restricted attack (PGD, CW, FGSM, MIFGSM)](#Evaluate-SAT-against-restricted-attack ) 
+5) [Evaluate SAT against Common Corruptions](#Evaluate-SAT-against-Common-Corruptions)
 
 ## Contributions
 1. We propose to set-up priors in the form of fooling target samples during adversarial training and propose a multi-task objective for adversary creation that seeks to fool the model in terms of image style, visual content as well as the decision boundary for the true class.  Based on a high-strength perturbation, we develop a margin-maximizing (contrastive) adversarial training procedure that maps perturbed image close to clean one and maximally separates it from the target image used to craft the adversary. 
 2. Compared to conventional adversarial training, our approach does not cause a drop in clean accuracy, and performs well against the real-world common image corruptions. We further demonstrate robustness and generalization capabilities of the proposed training regime when the underlying data distribution shifts.
 
+
+<p align="center">
+     <img src="https://github.com/Muzammal-Naseer/SAT/blob/main/assets/method_fig.jpg" > 
+</p>
 
 ## Pretrained SAT
 
