@@ -32,7 +32,7 @@
 
 
 <p align="center">
-     <img src="https://github.com/Muzammal-Naseer/SAT/tree/master/assests/method_fig.jpg" > 
+     <img src="https://github.com/Muzammal-Naseer/SAT/blob/master/assests/method_fig.jpg" > 
 </p>
 
 ## Pretrained SAT
