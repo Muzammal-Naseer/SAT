@@ -35,11 +35,11 @@
      <img src="https://github.com/Muzammal-Naseer/SAT/blob/master/assests/method_fig.jpg" width="800" height="400"> 
 </p>
 
-## Pretrained SAT
+## Download Pretrained SAT
 
 Download the Pretrained SAT model from [here](https://drive.google.com/file/d/1wbCaKW0S8aK0BC0knpnxE_A9YfYQFW91/view?usp=sharing) and put it int the folder "pretrained_models"
 
-## SAT against ROA
+## Evaluate SAT against ROA
 
 **Note that SAT is not trained against ROA but it still performs better than Trades/Feature scaterring.**
 
@@ -48,12 +48,12 @@ Download the Pretrained SAT model from [here](https://drive.google.com/file/d/1w
 ```
 
 
-## SAT against Restricted attacks: PGD, MIFGSM etc.
+## Evaluate SAT against restricted attack
 ```
   python test.py --attack_type pgd --eps 8 --iters 100 --random_restart
 ```
 
-## SAT against Common Corruptions
+## Evaluate SAT against Common Corruptions
 Download corrupted CIFAR10 dataset from [augmix](https://github.com/google-research/augmix) and extract to the folder "CIFAR-10-C". Run the following command to observe the robustness gains.
 
 ```
