@@ -23,7 +23,7 @@
 1) [Contributions](#Contributions) 
 2) [Download Pretrained SAT](#Download-Pretrained-SAT)
 3) [Evaluate SAT against ROA (unrestricted attack)](#Evaluate-SAT-against-ROA)
-4) [Evaluate SAT against restricted attack (PGD, CW, FGSM, MIFGSM)](#Evaluate-SAT-against-restricted-attack ) 
+4) [Evaluate SAT against restricted attack (PGD, CW, FGSM, MIFGSM)](#Evaluate-SAT-against-restricted-attack) 
 5) [Evaluate SAT against Common Corruptions](#Evaluate-SAT-against-Common-Corruptions)
 
 ## Contributions
