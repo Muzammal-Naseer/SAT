@@ -8,6 +8,7 @@
 > 
 
 ## Citation
+If you find our work, this repository and pretrained model useful. Please consider giving a star :star: and citation.
 
 ```bibtex
     @InProceedings{naseer2020stylized,
