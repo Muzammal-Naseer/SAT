@@ -38,7 +38,7 @@ If you find our work, this repository and pretrained model useful. Please consid
 
 ## Download Pretrained SAT
 
-Download the Pretrained SAT models trained with singel and multi step stylized attack from [here](https://drive.google.com/file/d/1wbCaKW0S8aK0BC0knpnxE_A9YfYQFW91/view?usp=sharing) and put it int the folder "pretrained_models"
+Download the Pretrained SAT models trained with single and multi step stylized attack from [here](https://drive.google.com/file/d/1wbCaKW0S8aK0BC0knpnxE_A9YfYQFW91/view?usp=sharing) and put it int the folder "pretrained_models"
 
 ## Evaluate SAT against ROA
 
