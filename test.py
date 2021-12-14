@@ -15,7 +15,7 @@ from attack import *
 
 parser = argparse.ArgumentParser(description='ROA Robustness')
 parser.add_argument('--data_type', type=str, default='cifar10', help='cifar10/100, svhn')
-parser.add_argument('--model_type', type=str, default='SAT', help=' Type of model: SAT/TRADES/FS')
+parser.add_argument('--model_type', type=str, default='SAT_s', help=' Type of model: SAT-s/SAT-m/TRADES/FS')
 parser.add_argument('--batch_size', type=int, default=256, help='Batch size')
 parser.add_argument('--attack_type', type=str, default='pgd', help='fgsm, pgd')
 parser.add_argument('--iters', type=int, default= 10, help='Number of iterations for ifgsm, mifgsm, pgd')
@@ -48,11 +48,14 @@ else:
     num_classes = 10
 
 
-if args.model_type == 'SAT':
+if args.model_type == 'SAT-s': # Single step SAT training
     model = WideResNet(depth=28, num_classes=num_classes, widen_factor=10)
     model = torch.nn.DataParallel(model)
     checkpoint = torch.load('pretrained_models/sat')
     model.load_state_dict(checkpoint['net'])
+elif args.model_type == 'SAT-m': # Multi step SAT training
+    model = WideResNet(depth=28, num_classes=num_classes, widen_factor=10)
+    model.load_state_dict(torch.load('pretrained_models/sat_multi_step.pt'))
 else:
     raise ValueError('Please download the pretrained model (e.g feature scattering or trades) first and modify the evaluation accordingly')
 model = model.to(device)
