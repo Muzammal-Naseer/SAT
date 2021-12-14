@@ -22,7 +22,7 @@ If you find our work, this repository and pretrained model useful. Please consid
 
 ### Table of Contents  
 1) [Contributions](#Contributions) 
-2) [Download Pretrained SAT](#Download-Pretrained-SAT)
+2) [Download Pretrained SAT Models](#Download-Pretrained-SAT)
 3) [Evaluate SAT against ROA (unrestricted attack)](#Evaluate-SAT-against-ROA)
 4) [Evaluate SAT against restricted attack (PGD, CW, FGSM, MIFGSM)](#Evaluate-SAT-against-restricted-attack) 
 5) [Evaluate SAT against Common Corruptions](#Evaluate-SAT-against-Common-Corruptions)
@@ -38,7 +38,7 @@ If you find our work, this repository and pretrained model useful. Please consid
 
 ## Download Pretrained SAT
 
-Download the Pretrained SAT model from [here](https://drive.google.com/file/d/1wbCaKW0S8aK0BC0knpnxE_A9YfYQFW91/view?usp=sharing) and put it int the folder "pretrained_models"
+Download the Pretrained SAT models trained with singel and multi step stylized attack from [here](https://drive.google.com/file/d/1wbCaKW0S8aK0BC0knpnxE_A9YfYQFW91/view?usp=sharing) and put it int the folder "pretrained_models"
 
 ## Evaluate SAT against ROA
 
