@@ -11,12 +11,13 @@
 If you find our work, this repository and pretrained model useful. Please consider giving a star :star: and citation.
 
 ```bibtex
-    @InProceedings{naseer2020stylized,
-        title={Stylized Adversarial Defense},
-        author={Naseer, Muzammal and Khan, Salman and Hayat, Munawar and Khan, Fahad Shahbaz and Porikli, Fatih},
-        journal={arXiv preprint arXiv:2007.14672},
-        year={2020}
-    }
+@article{naseer2022stylized,
+  title={Stylized adversarial defense},
+  author={Naseer, Muzammal and Khan, Salman and Hayat, Munawar and Khan, Fahad Shahbaz and Porikli, Fatih},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2022},
+  publisher={IEEE}
+}
 ```
 
 
